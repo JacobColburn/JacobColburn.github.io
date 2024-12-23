@@ -3328,3 +3328,26 @@ input, select, textarea {
 			}
 
 		}
+.soft-bar {
+    border: 0;
+    border-top: 2px solid #ccc; /* Light gray line */
+    margin: 20px 0; /* Space above and below */
+    width: 50%; /* Width of the bar */
+    margin-left: auto;
+    margin-right: auto; /* Centers the bar */
+}
+
+/* Optional styling for a clean layout */
+.about-me, .projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.image.main img {
+  width: 150px;               /* Set a fixed width for the circular image */
+  height: 150px;              /* Ensure the height matches the width */
+  border-radius: 50%;         /* Makes the image circular */
+  border: 5px solid #333;     /* Adds a border around the image */
+  display: block;             /* Removes extra space below the image */
+  margin: 0 auto 20px;        /* Centers the image and adds space below it */
+}
