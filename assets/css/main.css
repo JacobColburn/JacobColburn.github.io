@@ -2359,8 +2359,8 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				 width: 70%;
-				 height: 70%;              /* Ensure the height matches the width */
+				 width: 400px;
+				 height: 400px;              /* Ensure the height matches the width */
   				 border-radius: 50%;         /* Makes the image circular */
   				 border: 1px solid;     /* Adds a border around the image */
   				 display: block;             /* Removes extra space below the image */
