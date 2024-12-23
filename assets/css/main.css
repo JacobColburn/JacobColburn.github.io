@@ -2362,7 +2362,7 @@ input, select, textarea {
 				 width: 400px;
 				 height: 400px;              /* Ensure the height matches the width */
   				 border-radius: 50%;         /* Makes the image circular */
-  				 border: 1px solid;     /* Adds a border around the image */
+  				 border: 1px solid #333;     /* Adds a border around the image */
   				 display: block;             /* Removes extra space below the image */
   				 margin: 0 auto 20px; 
 			}
