@@ -3338,11 +3338,7 @@ input, select, textarea {
 }
 
 /* Optional styling for a clean layout */
-.about-me, .projects {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 .image.main img {
   width: 150px;               /* Set a fixed width for the circular image */
   height: 150px;              /* Ensure the height matches the width */
