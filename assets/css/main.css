@@ -2359,8 +2359,8 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				 width: 400px;
-				 height: 400px;              /* Ensure the height matches the width */
+				 width: 150px;
+				 height: 150px;              /* Ensure the height matches the width */
   				 border-radius: 50%;         /* Makes the image circular */
   				 border: 1px solid #333;     /* Adds a border around the image */
   				 display: block;             /* Removes extra space below the image */
@@ -3333,11 +3333,3 @@ input, select, textarea {
 			}
 
 		}
-.soft-bar {
-    border: 0;
-    border-top: 2px solid #ccc; /* Light gray line */
-    margin: 20px 0; /* Space above and below */
-    width: 50%; /* Width of the bar */
-    margin-left: auto;
-    margin-right: auto; /* Centers the bar */
-}
