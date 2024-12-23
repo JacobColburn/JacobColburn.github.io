@@ -2359,12 +2359,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				 width: 150px;               /* Set a fixed width for the circular image */
-  				 height: 150px;              /* Ensure the height matches the width */
-  				 border-radius: 50%;         /* Makes the image circular */
-  			 	 border: 5px solid #333;     /* Adds a border around the image */
-  				 display: block;             /* Removes extra space below the image */
-  				 margin: 0 auto 20px;        /* Centers the image and adds space below it */
+				 width: 100%;
 			}
 
 			@media screen and (max-width: 736px) {
