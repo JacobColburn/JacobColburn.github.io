@@ -118,7 +118,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 20pt;
 		font-weight: 300;
 		line-height: 1.75;
 	}
@@ -2349,7 +2349,14 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				 width: 150px;
+				 height: 150px;              /* Ensure the height matches the width */
+  				 border-radius: 50%;         /* Makes the image circular */
+  				 border: 1px solid #333;     /* Adds a border around the image */
+  				 object-fit: cover;
+				 display: block;             /* Removes extra space below the image */
+  				 margin: 0 auto 20px;
+				 justify-self: center;
 			}
 
 		.image.main {
@@ -2359,12 +2366,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				 width: 150px;
-				 height: 150px;              /* Ensure the height matches the width */
-  				 border-radius: 50%;         /* Makes the image circular */
-  				 border: 1px solid #333;     /* Adds a border around the image */
-  				 display: block;             /* Removes extra space below the image */
-  				 margin: 0 auto 20px; 
+				 width: 100% 
 			}
 
 			@media screen and (max-width: 736px) {
