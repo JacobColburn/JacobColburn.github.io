@@ -4,7 +4,7 @@ Welcome to my GitHub Pages site! This is my personal portfolio where I showcase 
 
 ## 🚀 About Me
 
-Hi, I'm **Jacob Colburn**, a passionate developer with experience in Python, Java, MySQL, and web development. Growing up playing *The Legend of Zelda*, I developed a love for solving complex puzzles—whether in games or through code. Now, I channel that same passion into creating innovative and functional projects.
+Hi, I'm **Jacob Colburn**, a passionate developer with experience in Python, Java, MySQL, and web development. Growing up, I developed a love for solving complex puzzles in games. Now, I channel that same passion into creating innovative and functional projects.
 
 I thrive on the challenge of tackling problems through code and have worked on projects like:
 
