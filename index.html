@@ -164,8 +164,10 @@
                 })
                 .then(function(response) {
                     console.log('Message delivered successfully!', response.text);
+																				alert('Message delivered successfully!');
                 }, function(error) {
                     console.log('Error: Oh no! We lost your message!', error);
+																				alert('Error: Oh no! We lost your message!');
                 });
 			}
 		</script>
