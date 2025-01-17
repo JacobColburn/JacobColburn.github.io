@@ -157,11 +157,7 @@
 				const email = document.getElementById("email").value;
 				const message = document.getElementById("message").value;
 
-				emailjs.sendForm('service_u8qsece', 'template_qhaq8eb', {
-                    name,
-                    email,
-                    message
-                })
+				emailjs.sendForm('service_u8qsece', 'template_qhaq8eb', '#contactForm')
                 .then(function(response) {
                     console.log('Message delivered successfully!', response.text);
 																				alert('Message delivered successfully!');
