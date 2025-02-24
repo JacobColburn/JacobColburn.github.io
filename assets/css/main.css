@@ -2171,6 +2171,8 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				height: 200px; /* Adjust height as needed */
+				object-fit: cover; /* Ensures images fill the area without distortion */
 			}
 
 		.image.avatar {
