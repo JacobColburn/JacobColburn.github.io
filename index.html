@@ -12,12 +12,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 
 		<!-- EmailJS Integration -->
-		<script src="https://cdn.emailjs.com/dist/email.js"></script>
-		<script>
-            (function() {
-                emailjs.init("3kPcBvF4lMkbmxvFe");
-            })();
-        </script>
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script>
+    (function() {
+        emailjs.init("3kPcBvF4lMkbmxvFe");
+    })();
+	</script>
 
 	</head>
 	<body class="is-preload">
@@ -157,15 +157,13 @@
 				const email = document.getElementById("email").value;
 				const message = document.getElementById("message").value;
 
-				emailjs.sendForm('service_u8qsece', 'template_qhaq8eb', {
-                    name,
-                    email,
-                    message
-                })
+				emailjs.sendForm('service_u8qsece', 'template_qhaq8eb', '#contactForm')
                 .then(function(response) {
                     console.log('Message delivered successfully!', response.text);
+																				alert('Message delivered successfully!');
                 }, function(error) {
                     console.log('Error: Oh no! We lost your message!', error);
+																				alert('Error: Oh no! We lost your message!');
                 });
 			}
 		</script>
